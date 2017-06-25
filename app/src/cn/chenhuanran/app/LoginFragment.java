@@ -39,11 +39,15 @@ public class LoginFragment extends Fragment {
 	    
 	    username=intent.getStringExtra("username");
 	    flag=false;
-	    if(username!=null){
+	    if(username!=null&&username.length()>0){
 	    	login_text.setText(username);
 	    	bt_login.setText("×¢Ïú"); 
 	    	flag=true;
 	 
+	    }else{
+	    	login_text.setText("Î´µÇÂ¼");
+	    	bt_login.setText("µÇÂ¼»ò×¢²á"); 
+	    	flag=false;
 	    }
 	   
 	    
@@ -60,6 +64,7 @@ public class LoginFragment extends Fragment {
 			    	Toast.makeText(getActivity(), "×¢Ïú³É¹¦", 0).show();
 			    	login_text.setText("Î´µÇÂ¼");
 			    	bt_login.setText("µÇÂ¼»ò×¢²á"); 
+			    	getActivity().getIntent().putExtra("username", "");
 			    	flag=false;
 			    	username=null;
 			    	

@@ -79,7 +79,7 @@ public class MainActivity extends Activity implements OnClickListener{
     		   transaction.replace(R.id.id_content, page2); //这里是指定跳转到指定的fragment
     		   txt2.setTextColor(Color.parseColor("#449efe"));
     		   transaction.commit();
-    		   finish();
+    		  finish();
     	   }
        else  if(id==2){
 	       FragmentManager fm=getFragmentManager();
@@ -88,8 +88,8 @@ public class MainActivity extends Activity implements OnClickListener{
 	       
 		   transaction.replace(R.id.id_content, page4); //这里是指定跳转到指定的fragment
 		   txt4.setTextColor(Color.parseColor("#449efe"));
-	
 		   transaction.commit();
+		//finish();
 	   }
     	   }
     }

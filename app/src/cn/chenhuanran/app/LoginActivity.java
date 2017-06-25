@@ -88,6 +88,7 @@ public class LoginActivity extends Activity{
 		  				intent.putExtra("back",2);
 		  				intent.putExtra("username", username);
 		  				startActivity(intent);
+		  				//finish();
 		  			}else{
 		  				Toast.makeText(LoginActivity.this, "ÃÜÂë´íÎó", 0).show();
 		  			}
