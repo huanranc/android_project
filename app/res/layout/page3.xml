@@ -1,0 +1,51 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#edeeee"
+    >
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+         >
+        
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:text="胡子"
+            android:paddingLeft="30dip"
+            android:gravity=""
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+
+        <ImageView
+            android:visibility="visible"
+            android:layout_centerHorizontal="true"
+     		android:scaleType="fitXY"
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:src="@drawable/page3" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Happy weekend!今天是愉快的一天"
+            android:paddingLeft="20dip"
+            android:gravity="center_vertical|left"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+   
+</ScrollView>

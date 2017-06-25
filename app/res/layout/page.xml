@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="#449efe"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="今日推荐"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+    </LinearLayout>   
+
+    <ImageView
+        android:layout_width="304dp"
+        android:layout_height="281dp"
+        android:layout_gravity="center"
+        android:src="@drawable/breakfast_img" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp" 
+        android:layout_margin="12px"
+        android:text="原味松饼Pancake" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" 
+        android:layout_margin="12px"
+        android:text="用料" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="低筋面粉" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="100g" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="鸡蛋" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="1个（60-65g）" />	
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="糖" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="40g" />	
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="牛奶" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="70-75ml" />	
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="玉米油" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="10ml（面糊用）" />	
+            
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="泡打粉" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="4g" />	
+            
+        </TableRow>
+        
+        <TableRow
+            android:id="@+id/tableRow7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="玉米油" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"   
+                android:text="20ml（摊饼用)" />	
+            
+        </TableRow>
+    </TableLayout>
+    
+        <TextView
+       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" 
+        android:layout_margin="12px"
+        android:text="步骤" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="1.打一个鸡蛋进碗里搅拌均匀。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break01" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="12px"
+                android:layout_weight="1"
+                android:text="2.加入40g糖继续搅拌。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break02" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="3.加入70ml牛奶，后期倒入面粉的时候根据稠度可以适当加多5ml。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break03" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="4.继续加入10ml玉米油搅拌成蛋奶液，等待备用。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_margin="3px"
+        		android:layout_gravity="center"
+        		android:src="@drawable/break04" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="5.另取一碗，把面粉和泡打粉过筛。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break05" />
+
+
+        </TableRow>
+        
+         <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="6.把步骤4的蛋奶液倒入过筛的面粉中，边倒入边搅拌。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break06" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="7.面糊可以顺滑的自由落体即可以，然后静置10分钟。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break07" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="8.平底锅中火加热转小火，锅热了到入少许玉米油，再用纸巾擦掉表面的油星。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break08" />
+
+
+        </TableRow>
+        
+        <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="9.用勺子舀起面糊， 一次性倒入，从15-20cm高度自由落体低落 ，面糊会慢慢形成一个圆形。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break09" />
+
+
+        </TableRow>
+        
+         <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="10.等面糊表面出现各种小气泡并且破裂就可以翻面了。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break10" />
+
+
+        </TableRow>
+        
+          <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="11.翻面以后等面糊凝固，可以用铲子压一下然后就可以装盘了。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="62dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break11" />
+
+
+        </TableRow>
+        
+          <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="12.为了让松饼上色均匀，防止颜色越来越深，摊下一块松饼的时候，可以用厨房纸巾沾湿放入锅内降温，再进行下个摊松饼。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break12" />
+
+
+        </TableRow>
+        
+           <TableRow
+            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="12px"
+                android:text="13.最后铺上自己喜欢的水果，淋上蜂蜜或者各种果酱，奶油都可以的。" />
+
+            <ImageView
+        		android:layout_width="100dp"
+        		android:layout_height="55dp"
+        		android:layout_gravity="center"
+        		android:layout_margin="3px"
+        		android:src="@drawable/break13" />
+
+
+        </TableRow>
+        
+        
+
+     
+    </TableLayout>
+
+</LinearLayout>
+</ScrollView>
